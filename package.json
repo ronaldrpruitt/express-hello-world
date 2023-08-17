@@ -1,12 +1,15 @@
 {
+  "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "name": "express-hello-world",
   "version": "1.0.0",
   "description": "Hello world app with express 4",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "express",
     "hello-world"
@@ -15,5 +18,12 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.15.0"
+  },
+  "devDependencies": {
+    "@edgio/cli": "^7.1.1",
+    "@edgio/core": "^7.1.1",
+    "@edgio/devtools": "^7.1.1",
+    "@edgio/express": "^7.1.1",
+    "@edgio/prefetch": "^7.1.1"
   }
 }
