@@ -14,7 +14,7 @@ $ npm run start
 
 ```
 $ cd ~/express-hello-world  # or whatever is the directory location of this repo
-$ docker build -t hello-world-image .
+$ docker build -t hello-world-image . Test
 ```
 
 
